@@ -1,35 +1,39 @@
 ---
-title: "GiGte"
-author: "Jenna Hamlin"
-date: "3/27/2020"
-output: powerpoint_presentation
+title: "Start Writing Manuscripts in Rmarkdown..."
+author: Jenna Hamlin
+subtitle: ...especially if you already know R
+output:
+  powerpoint_presentation:
+    reference_doc: template-no-title.pptx
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+# Highlights on our tour of Rmarkdown
 
-# Reproduciable Research with Rmarkdown
+* What is markdown
+* What is Rmarkdown 
+* Integrating references using BibTeX
+* Analyses using R
+* Equations and other formatting with LaTeX
+* Formatting references using CSL files
+* Incorporating version control with git/github
 
-## especially if you already know R
+# Markdown
 
-![rmarkdown open](/Users/jennahamlin/Desktop/GiGte/markdown.open.png)
+![Markdown is a lightweight markup language with plain-text-formatting syntax](markdownCheatSheet.png)
+[link to pdf](https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
 
-## Slide with Bullets
+# Rmarkdown
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+![provides an authoring framework for data science. R Markdown file to 
 
-## Slide with R Output
+both save and execute code generate high quality reports that can be shared with an audience R Markdown documents are fully reproducible and support dozens of static and dynamic output formats.](markdown.open.png)
+[link to Rmarkdown](https://rmarkdown.rstudio.com/lesson-1.html)
 
-```{r cars, echo = TRUE}
-summary(cars)
-```
-
-## Slide with Plot
-
-```{r pressure}
-plot(pressure)
-```
-
+:::::::::::::: {.columns}
+::: {.column}
+Data science is an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge. The goal of “R for Data Science” is to help you learn the most important tools in R that will allow you to do data science.
+:::
+::: {.column}
+![](markdown.open.png)
+:::
+::::::::::::::
