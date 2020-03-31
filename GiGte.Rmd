@@ -11,16 +11,16 @@ output:
 
 * What is markdown
 * What is Rmarkdown 
-* Analyses using R in Rmarkdown
 * Using a word document template
 * Equations and other formatting with LaTeX
+* Analyses using R in Rmarkdown
 * Integrating references
 * Formatting using CSL files
 * Incorporating version control with git/github
 
 # Markdown
 
-![Markdown is a lightweight markup language with plain-text-formatting syntax](/Users/jennahamlin/Desktop/GiGte/images/markdownCheatSheet.png)
+![Markdown is a lightweight markup language with plain-text-formatting syntax.](/Users/jennahamlin/Desktop/GiGte/images/markdownCheatSheet.png)
 
 # Rmarkdown
 
@@ -28,8 +28,19 @@ output:
 
 # .Rmd files
 
-![.Rmd files can be opened and edited in Rstudio, and turned into HTML, PDF, or DOCX files with the push of button](/Users/jennahamlin/Desktop/GiGte/images/Rmd.output.png)
+![.Rmd files can be opened and edited in Rstudio, and turned into HTML, PDF, or DOCX files with the push of button.](/Users/jennahamlin/Desktop/GiGte/images/Rmd.output.png)
+
 # YAML 
+
+![Yet Another Markup Language (YAML) - specify key information to be used when producing the final document (i.e. powerful for formatting)](/Users/jennahamlin/Desktop/GiGte/images/yamlImage.png)
+
+# Using a word document template
+
+![Many journals and colleagues prefer to read and receive manuscripts as DOCX files. With a template the created DOCX is formatted as desired every time.](/Users/jennahamlin/Desktop/GiGte/images/docxTemplate.png)
+
+# Equations and other formatting with LaTeX
+
+![LaTeX produces highly professional looking equations](/Users/jennahamlin/Desktop/GiGte/images/latexImage.png)
 
 # Analyses using R code 
 
@@ -37,16 +48,6 @@ output:
 # Analyses using R code 2
 
 ![embed figures directly into Rmarkdown documents](/Users/jennahamlin/Desktop/GiGte/images/rCodeChunks.png)
-
-
-# Using a word document template
-
-![Many journals and colleagues prefer to read and receive manuscripts as DOCX files. With a template the created DOCX is formatted as desired every time](/Users/jennahamlin/Desktop/GiGte/images/docxTemplate.png)
-
-
-# Equations and other formatting with LaTeX
-
-![LaTeX produces highly professional looking equations](/Users/jennahamlin/Desktop/GiGte/images/latexImage.png)
 
 # Integrating references with BibTeX
 
@@ -66,6 +67,8 @@ Each references has a unique ‘key’ used within Rmd files (e.g. [@author]) an
 
 # Incorporating version control with git/github
 
+![manage, share, document, file backups, exporsure, collaborate, etc..]()
+
 
 # Quick look at a manuscript - dummy Rmarkdown document
 
@@ -77,7 +80,7 @@ Each references has a unique ‘key’ used within Rmd files (e.g. [@author]) an
 * r chunks https://garrettgman.github.io/rmarkdown/authoring_rcodechunks.html
 * template https://support.office.com/en-us/article/create-a-template-86a1d089-5ae2-4d53-9042-1191bce57deb
 * equations https://en.wikibooks.org/wiki/LaTeX/Mathematics
-* references
+* references https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html
 * csl https://github.com/citation-style-language/styles
-* version control with git/github
-
+* version control with git/github https://happygitwithr.com/
+* https://stirlingcodingclub.github.io/Manuscripts_in_Rmarkdown/Rmarkdown_notes.html
