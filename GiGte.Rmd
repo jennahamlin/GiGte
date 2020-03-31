@@ -4,7 +4,7 @@ author: Jenna Hamlin
 subtitle: ...especially if you already know R
 output:
   powerpoint_presentation:
-    reference_doc: template-no-title.pptx
+    reference_doc: template-no-title3.pptx
 ---
 
 # Highlights on our tour of Rmarkdown
@@ -12,35 +12,72 @@ output:
 * What is markdown
 * What is Rmarkdown 
 * Analyses using R in Rmarkdown
-* Integrating references using BibTeX
+* Using a word document template
 * Equations and other formatting with LaTeX
-* Formatting references using CSL files
+* Integrating references
+* Formatting using CSL files
 * Incorporating version control with git/github
 
 # Markdown
 
-
 ![Markdown is a lightweight markup language with plain-text-formatting syntax](/Users/jennahamlin/Desktop/GiGte/images/markdownCheatSheet.png)
-[link](#/https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
 
 # Rmarkdown
 
-![Rmarkdown is a text file that can generate high quality reports and execute code which allows reproducibility for output in a dozen static and dynamic formats (including this powerpoint).](/Users/jennahamlin/Desktop/GiGte/images/Rmarkdown.open.png)
-https://rmarkdown.rstudio.com/lesson-1.html
+![Text file that can execute code making reproducibile output in a dozen static and dynamic formats (including this powerpoint).](/Users/jennahamlin/Desktop/GiGte/images/Rmarkdown.open.png)
 
 # .Rmd files
 
 ![.Rmd files can be opened and edited in Rstudio, and turned into HTML, PDF, or DOCX files with the push of button](/Users/jennahamlin/Desktop/GiGte/images/Rmd.output.png)
+# YAML 
 
 # Analyses using R code 
 
-![Integrate R code directly (avoiding the need to awkwardly copy-paste analyses, tables, or figures)](/Users/jennahamlin/Desktop/GiGte/images/integrateRCode.png)
+![Integrate R code (R chunks) directly avoiding the need to awkwardly copy-paste analyses, tables, or figures](/Users/jennahamlin/Desktop/GiGte/images/integrateRCode.png)
+# Analyses using R code 2
+
+![embed figures directly into Rmarkdown documents](/Users/jennahamlin/Desktop/GiGte/images/rCodeChunks.png)
+
+
+# Using a word document template
+
+![Many journals and colleagues prefer to read and receive manuscripts as DOCX files. With a template the created DOCX is formatted as desired every time](/Users/jennahamlin/Desktop/GiGte/images/docxTemplate.png)
+
+
+# Equations and other formatting with LaTeX
+
+![LaTeX produces highly professional looking equations](/Users/jennahamlin/Desktop/GiGte/images/latexImage.png)
+
+# Integrating references with BibTeX
 
 :::::::::::::: {.columns}
 ::: {.column}
-Data science is an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge. The goal of “R for Data Science” is to help you learn the most important tools in R that will allow you to do data science.
+Each references has a unique ‘key’ used within Rmd files (e.g. [@author]) and willautomatically building the reference section
 :::
 ::: {.column}
-#![]R(markdown.open.png)
+![](/Users/jennahamlin/Desktop/GiGte/images/refsBib.png)
 :::
 ::::::::::::::
+
+# Formatting using CSL files
+
+![CSL - Citation Style Language - essentially text files that tell the Rmarkdown file how to use the information in the BibTeX file to build the citations that are journal specific](/Users/jennahamlin/Desktop/GiGte/images/cslPage.png)
+
+
+# Incorporating version control with git/github
+
+
+# Quick look at a manuscript - dummy Rmarkdown document
+
+# Links 
+* markdown https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
+* rmarkdown https://rmarkdown.rstudio.com/lesson-1.html
+* rmarkdown cheat sheet https://rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf
+* rmarkdown book https://bookdown.org/yihui/rmarkdown/powerpoint-presentation.html#ppt-templates
+* r chunks https://garrettgman.github.io/rmarkdown/authoring_rcodechunks.html
+* template https://support.office.com/en-us/article/create-a-template-86a1d089-5ae2-4d53-9042-1191bce57deb
+* equations https://en.wikibooks.org/wiki/LaTeX/Mathematics
+* references
+* csl https://github.com/citation-style-language/styles
+* version control with git/github
+
