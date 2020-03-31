@@ -45,6 +45,7 @@ output:
 # Analyses using R code 
 
 ![Integrate R code (R chunks) directly avoiding the need to awkwardly copy-paste analyses, tables, or figures](/Users/jennahamlin/Desktop/GiGte/images/integrateRCode.png)
+
 # Analyses using R code 2
 
 ![embed figures directly into Rmarkdown documents](/Users/jennahamlin/Desktop/GiGte/images/rCodeChunks.png)
@@ -67,7 +68,7 @@ Each references has a unique ‘key’ used within Rmd files (e.g. [@author]) an
 
 # Incorporating version control with git/github
 
-![manage, share, document, file backups, exporsure, collaborate, etc..]()
+![manage, share, document, file backups, exporsure, collaborate, etc..](/Users/jennahamlin/Desktop/GiGte/images/gitImage.png)
 
 
 # Quick look at a manuscript - dummy Rmarkdown document
