@@ -11,29 +11,36 @@ output:
 
 * What is markdown
 * What is Rmarkdown 
+* Analyses using R in Rmarkdown
 * Integrating references using BibTeX
-* Analyses using R
 * Equations and other formatting with LaTeX
 * Formatting references using CSL files
 * Incorporating version control with git/github
 
 # Markdown
 
-![Markdown is a lightweight markup language with plain-text-formatting syntax](markdownCheatSheet.png)
-[link to pdf](https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
+
+![Markdown is a lightweight markup language with plain-text-formatting syntax](/Users/jennahamlin/Desktop/GiGte/images/markdownCheatSheet.png)
+[link](#/https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
 
 # Rmarkdown
 
-![provides an authoring framework for data science. R Markdown file to 
+![Rmarkdown is a text file that can generate high quality reports and execute code which allows reproducibility for output in a dozen static and dynamic formats (including this powerpoint).](/Users/jennahamlin/Desktop/GiGte/images/Rmarkdown.open.png)
+https://rmarkdown.rstudio.com/lesson-1.html
 
-both save and execute code generate high quality reports that can be shared with an audience R Markdown documents are fully reproducible and support dozens of static and dynamic output formats.](markdown.open.png)
-[link to Rmarkdown](https://rmarkdown.rstudio.com/lesson-1.html)
+# .Rmd files
+
+![.Rmd files can be opened and edited in Rstudio, and turned into HTML, PDF, or DOCX files with the push of button](/Users/jennahamlin/Desktop/GiGte/images/Rmd.output.png)
+
+# Analyses using R code 
+
+![Integrate R code directly (avoiding the need to awkwardly copy-paste analyses, tables, or figures)](/Users/jennahamlin/Desktop/GiGte/images/integrateRCode.png)
 
 :::::::::::::: {.columns}
 ::: {.column}
 Data science is an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge. The goal of “R for Data Science” is to help you learn the most important tools in R that will allow you to do data science.
 :::
 ::: {.column}
-![](markdown.open.png)
+#![]R(markdown.open.png)
 :::
 ::::::::::::::
