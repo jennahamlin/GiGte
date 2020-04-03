@@ -45,7 +45,7 @@ output:
 
 # Analyses using R code 
 
-![Integrate R code (R chunks) directly avoiding the need to awkwardly copy-paste analyses, tables, or figures.](/Users/jennahamlin/Desktop/GiGte/images/integrateRCode.png)
+![Integrate R code (R chunks) directly avoiding the need to copy-paste analyses, tables, or figures.](/Users/jennahamlin/Desktop/GiGte/images/integrateRCode.png)
 
 # Analyses using R code 2
 
@@ -55,7 +55,7 @@ output:
 
 :::::::::::::: {.columns}
 ::: {.column}
-Each reference has a unique ‘key’ used within Rmd files (e.g. [@author]) that  will automatically build the reference section. 
+Each reference has a unique ‘key’ used within .Rmd files (e.g. [@author]) that  will automatically build the reference section. 
 :::
 ::: {.column}
 ![](/Users/jennahamlin/Desktop/GiGte/images/refsBib.png)
@@ -69,7 +69,7 @@ Each reference has a unique ‘key’ used within Rmd files (e.g. [@author]) tha
 
 # Incorporating version control with git/github
 
-![Manage, share, document, file backups, exporsure, collaborate all while using R and Rmarkdown.](/Users/jennahamlin/Desktop/GiGte/images/gitImage.png)
+![Manage, share, document, file backups, exposure, collaborate all while using R and Rmarkdown.](/Users/jennahamlin/Desktop/GiGte/images/gitImage.png)
 
 # Access Rmarkdown at CDC
 
